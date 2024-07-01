@@ -4,7 +4,7 @@ return {
       local auto_session = require("auto-session") -- load auto-session plugins
 
       auto_session.setup({
-         auto_restore_enabled = true, -- enable if require the session to be saved automatically
+         auto_restore_enabled = false, -- enable if require the session to be saved automatically
          auto_session_suppress_dirs = { "~/", "~/Dev/", "~/Downloads", "~/Documents", "~/Desktop/" }, -- specify directories that we want to ignore
       })
 
