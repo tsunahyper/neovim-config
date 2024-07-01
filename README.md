@@ -63,6 +63,14 @@ This will open the Lazy plugin UI. From here, you can install or update all plug
 
 ... Wait for the installation and updates to complete.
 
+## Additional Plugins
+
+Added New Plugins : 
+[1] : Copilot
+- Copilot is now setup along with the other plugins upon execution of Neovim.
+- To setup copilot run this command : --> :Copilot setup
+- This will redirect user to a github browser and authenticate through copilot.
+- Once all setup is complete, You can now use copilot as usual in Github. 
 
 ## Troubleshooting
 
