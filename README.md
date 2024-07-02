@@ -12,50 +12,61 @@ Welcome to your step-by-step guide to setting up Neovim with a customized config
 
 First, you'll need to install Homebrew, a package manager for macOS. Open your terminal and run the following command:
 
---> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ## Step 2: Install Neovim
 
 Once Homebrew is installed, use it to install Neovim:
 
---> brew install nvim
+```ps
+brew install nvim
+```
 
 After Neovim is installed, navigate to the Neovim configuration directory:
 
---> cd ~/.config/nvim/
-
+```ps
+cd ~/.config/nvim/
+```
 ## Step 3: Clone the Configuration Repository
 
 Next, clone your Neovim configuration repository. You can either clone it directly into the Neovim configuration directory or clone it to your Desktop and then move it:
 
 Option 1: Clone Directly into the Configuration Directory
 
---> git clone https://github.com/tsunahyper/neovim-config.git ~/.config/nvim
+```ps
+git clone https://github.com/tsunahyper/neovim-config.git ~/.config/nvim
+```
 
 Option 2: Clone to Desktop and Move:
 
---> cd ~/Desktop
-
---> git clone https://github.com/tsunahyper/neovim-config.git
-
---> mv ~/Desktop/neovim-config ~/.config/nvim
+```ps
+cd ~/Desktop
+```
+```ps
+git clone https://github.com/tsunahyper/neovim-config.git
+```
+```ps
+mv ~/Desktop/neovim-config ~/.config/nvim
+```
 
 ## Step 4: Install Lazy Plugin Manager
 
 Install the Lazy plugin manager to manage your Neovim plugins:
-
--->brew install lazy
-
+```ps
+brew install lazy
+```
 ## Step 5: Open Neovim and Install Plugins
 
 Now, open Neovim:
-
---> nvim .
-
+```ps
+nvim .
+```
 Inside Neovim, open the Lazy plugin manager by typing:
-
---> :Lazy
-
+```ps
+:Lazy
+```
 This will open the Lazy plugin UI. From here, you can install or update all plugins:
 
 - Press I to install missing plugins.
