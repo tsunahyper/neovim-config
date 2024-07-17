@@ -4,13 +4,11 @@ vim.g.mapleader = " "
 local keymap = vim.keymap -- for more conciseness
 
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with 'jk' from keyboard" })
-keymap.set("t", "<leader>qa", [[<C-\><C-n>]], { desc = "Exit terminal mode with 'esc' from keyboard" })
 keymap.set("n", "<leader>q", ":term<CR>", { desc = "Open command line on current screen" })
-
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
 --keymap.set('n', '<leader>e', vim.cmd.Ex, { desc = "Create shortcut to go to Explore tab"})
-keymap.set("t", "et", "<C-\\><C-n>", { noremap = true, silent = true })
+keymap.set("t", "et", "<C-\\><C-n>", { noremap = true, silent = true },  { desc = "Exit terminal mode with 'esc' from keyboard" })
 
 -- Increment & Decrement of numbers for ease of assigned int variables to be scaled
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment Number" })
