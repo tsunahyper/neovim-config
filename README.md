@@ -1,4 +1,4 @@
-# Tsunahyper Neovim Setup Guide
+# Tsunahyper - Neovim Setup Guide
 
 Welcome to your step-by-step guide to setting up Neovim with a customized configuration on a new machine. Follow these instructions to get a powerful, plugin-enhanced Neovim environment ready for development.
 
